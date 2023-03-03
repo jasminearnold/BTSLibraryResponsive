@@ -1,0 +1,99 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Music', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+header nav ul li a.nav-link {
+  font-size: 16px;
+  line-height: 29px;
+
+}
+
+header nav ul.top-nav li a.nav-link {
+  font-size: 18px;
+  line-height: 33px;
+}
+
+header nav ul li a.nav-link.active {
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+.banner {
+  background-color: #6667AB;
+}
+
+.books .card .card-body .card-title {
+  background: linear-gradient(0deg, #6667AB, #6667AB), linear-gradient(0deg, #6667AB, #6667AB), #6667AB;
+  font-size: 16px;
+  line-height: 29px;
+}
+
+.books .col-lg-5 {
+  margin-bottom: 36px;
+}
+
+.books {
+  padding: 30px 0 60px;
+}
+
+@media screen and (max-width:1199px) {
+  .books .col-lg-5 {
+      margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  header nav ul li a.nav-link {
+      font-size: 15px;
+      line-height: 28px;
+
+  }
+
+  header nav ul.top-nav li a.nav-link {
+      font-size: 16px;
+      line-height: 31px;
+  }
+
+  body {
+      font-size: 18px;
+      line-height: 34px;
+  }
+
+  br {
+      display: none;
+  }
+
+  .books .book-finder {
+      height: 239px;
+      object-fit: cover;
+  }
+
+  .books .col-lg-5 {
+      margin-bottom: 18px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  header nav .navbar-brand img {
+      width: 126px;
+      object-fit: contain;
+      height: auto;
+  }
+
+}
+
+@media screen and (max-width:575px) {
+  nav {
+      padding: 0px 20px !important;
+  }
+}
