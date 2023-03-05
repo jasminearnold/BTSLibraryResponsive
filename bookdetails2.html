@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS - LIBRARY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Music&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./global.css">
+</head>
+
+<body>
+    <header class="py-2 pb-md-2">
+        <nav class="navbar navbar-expand-md py-0">
+            <div class="container px-0">
+                <a href="./index.html" class="navbar-brand">
+                    <img src="./Assets/logo.png" alt="icon" width="164" height="104">
+                </a>
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-column" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto flex-start mb-md-3 mb-0 top-nav">
+                        <li class="nav-item">
+                            <a class="nav-link  me-2 text-start text-uppercase  text-black" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  me-2 text-start text-uppercase text-black" href="#">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  me-2 text-start text-uppercase text-black" href="#">Log in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  me-2 text-start text-uppercase text-black" href="#">Search</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto flex-end">
+                        <li class="nav-item">
+                            <a class="nav-link  me-2 text-start text-uppercase active text-black" href="#">Books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  me-2 text-start text-uppercase text-black" href="#">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  me-2 text-start text-uppercase text-black" href="#">Videos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="bar py-3 bg-primary"></div>
+    <div class="book-detail">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="book-detail-wrapper bg-light-gray p-lg-4 p-3">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-5 text-center mb-3 mb-md-0">
+                                <img src="./Assets/book-detail.png" alt="book detail" class="img-fluid book-detail-img"
+                                    width="300" height="460">
+                            </div>
+                            <div class="col-lg-8 col-md-7 text-md-start text-center">
+                                <small class="d-block text-black">The midnight library</small>
+                                <small class="d-block text-black">Haig, Matt, 1975- Author.</small>
+                                <small class="d-block py-xl-4 py-lg-3 py-2 text-black">Book/Text | Viking | 2020</small>
+                                <p class="text-black">The Midnight Library ponders the infinite possibilities of life.
+                                    It is about a young
+                                    woman name Nora Seed, who lives a
+                                    monotonous, ordinary life and feels unwanted and unaccomplished. One night, her
+                                    despair reaches a peak and she commits
+                                    suicide.</p>
+                                <a href="#"
+                                    class="text-decoration-none text-white d-inline-block text-uppercase bg-primary px-5 py-1 cta">
+                                    Place Hold
+                                </a>
+
+                                <div class="book-detail-rating" data-bs-toggle="modal" data-bs-target="#reviewModal">
+                                    <small class="text-uppercase text-black">Ratings:</small>
+                                    <ul class="list-inline text-center d-inline-block mb-0">
+                                        <li class="list-inline-item">
+                                            <img src="./Assets/rating.png" alt="rating" width="33" height="31"
+                                                class="img-fluid">
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <img src="./Assets/rating.png" alt="rating" width="33" height="31"
+                                                class="img-fluid">
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <img src="./Assets/rating.png" alt="rating" width="33" height="31"
+                                                class="img-fluid">
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <img src="./Assets/rating.png" alt="rating" width="33" height="31"
+                                                class="img-fluid">
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <img src="./Assets/rating.png" alt="rating" width="33" height="31"
+                                                class="img-fluid">
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <img src="./Assets/rating.png" alt="rating" width="33" height="31"
+                                                class="img-fluid">
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <img src="./Assets/rating.png" alt="rating" width="33" height="31"
+                                                class="img-fluid">
+                                        </li>
+                                    </ul>
+                                    <small class="d-block text-black text-decoration-underline">
+                                        7 / 7 star bombs
+                                    </small>
+                                </div>
+                            </div>
+
+                            <div class="modal fade" id="reviewModal" tabindex="-1" aria-labelledby="reviewModal"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content  rounded-0 border-0">
+                                        <div class="modal-header border-bottom-0 justify-content-center">
+                                            <div class="row w-100">
+                                                <div class="col-sm-6 text-sm-start text-center mb-2 mb-sm-0">
+                                                    <span class="text-black text-uppercase midnight-library-text">The
+                                                        Midnight Library</span>
+                                                </div>
+                                                <div class="col-sm-6 text-sm-end text-center">
+                                                    <a href="#"
+                                                        class="d-inline-block text-decoration-none cta text-white px-3 py-1">
+                                                        write a review
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-body justify-content-center">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="review-name mb-sm-5 px-sm-3 text-center text-sm-start">
+                                                        <img src="./Assets/review-1.png" alt="review"
+                                                            class="img-fluid float-sm-start float-none me-sm-4 "
+                                                            width="90" height="90">
+                                                        <ul
+                                                            class="list-inline text-center mb-0 d-block d-sm-inline-block">
+                                                            <li class="list-inline-item">
+                                                                <img src="./Assets/rating.png" alt="rating" width="33"
+                                                                    height="31" class="img-fluid">
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <img src="./Assets/rating.png" alt="rating" width="33"
+                                                                    height="31" class="img-fluid">
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <img src="./Assets/rating.png" alt="rating" width="33"
+                                                                    height="31" class="img-fluid">
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <img src="./Assets/rating.png" alt="rating" width="33"
+                                                                    height="31" class="img-fluid">
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <img src="./Assets/rating.png" alt="rating" width="33"
+                                                                    height="31" class="img-fluid">
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <img src="./Assets/rating.png" alt="rating" width="33"
+                                                                    height="31" class="img-fluid">
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <img src="./Assets/rating.png" alt="rating" width="33"
+                                                                    height="31" class="img-fluid">
+                                                            </li>
+                                                        </ul>
+                                                        <small class="d-block text-black">
+                                                            7 / 7 star bombs
+                                                        </small>
+                                                    </div>
+                                                    <p class="review-text text-black text-center text-sm-start">
+                                                        <small
+                                                            class="d-block text-black text-decoration-underline">kpcases</small>
+                                                        This book has been a life-saver for me. The book tells the story
+                                                        of a Nora, she's in her mid thirties similar to me, and
+                                                        I resonated with all the struggles that the book tackles. Even
+                                                        though the protagonist is female. The main character is
+                                                        relatable to those who have questioned the meaning and purpose
+                                                        of our existence and how the actions and decisions that
+                                                        we make, even and most specially the mundane, can have a
+                                                        significant impact in our lives and the lives of those around
+                                                        us.
+
+                                                    </p>
+
+
+                                                    <div class="review-name mb-sm-5 px-sm-3 text-center text-sm-start">
+                                                        <img src="./Assets/review-2.png" alt="review"
+                                                            class="img-fluid float-sm-start float-none me-sm-4"
+                                                            width="90" height="90">
+                                                        <ul
+                                                            class="list-inline text-center mb-0 d-block d-sm-inline-block">
+                                                            <li class="list-inline-item">
+                                                                <img src="./Assets/rating.png" alt="rating" width="33"
+                                                                    height="31" class="img-fluid">
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <img src="./Assets/rating.png" alt="rating" width="33"
+                                                                    height="31" class="img-fluid">
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <img src="./Assets/rating.png" alt="rating" width="33"
+                                                                    height="31" class="img-fluid">
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <img src="./Assets/rating.png" alt="rating" width="33"
+                                                                    height="31" class="img-fluid">
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <img src="./Assets/rating.png" alt="rating" width="33"
+                                                                    height="31" class="img-fluid">
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <img src="./Assets/rating.png" alt="rating" width="33"
+                                                                    height="31" class="img-fluid">
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <img src="./Assets/rating.png" alt="rating" width="33"
+                                                                    height="31" class="img-fluid">
+                                                            </li>
+                                                        </ul>
+                                                        <small class="d-block text-black ">
+                                                            7 / 7 star bombs
+                                                        </small>
+                                                    </div>
+                                                    <p class="review-text text-black text-center text-sm-start">
+                                                        <small
+                                                            class="d-block text-black text-decoration-underline">Jin-rjwootoeya</small>
+
+                                                        I read this book in one sitting. I cried, I smiled ....... <a
+                                                            href="#"
+                                                            class="text-black text-decoration-underline">MORE</a>
+
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
