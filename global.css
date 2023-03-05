@@ -1,0 +1,309 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Music', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+.bg-primary {
+    background-color: #6667AB !important;
+}
+
+.text-primary {
+    color: #6667AB !important;
+}
+
+.bg-light-gray {
+    background: rgba(102, 103, 171, 0.25);
+}
+
+header nav ul li a.nav-link {
+    font-size: 16px;
+    line-height: 29px;
+
+}
+
+header nav ul.top-nav li a.nav-link {
+    font-size: 18px;
+    line-height: 33px;
+}
+
+header nav ul li a.nav-link.active {
+    letter-spacing: 0.1em;
+    font-weight: 600;
+
+}
+
+header nav ul.top-nav li a.nav-link.army::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url('../assets/icon.png') no-repeat center/contain;
+    top: 46px;
+    left: 6px;
+}
+
+.books .card .card-body .card-title {
+    background: linear-gradient(0deg, #6667AB, #6667AB), linear-gradient(0deg, #6667AB, #6667AB), #6667AB;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.books .col-lg-5 {
+    margin-bottom: 36px;
+}
+
+.books {
+    padding: 30px 0 60px;
+}
+
+.checkout-history .nav-pills .nav-link.active {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.checkout-history .nav-pills .nav-link {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.checkout-history .check-out-history-text {
+    font-size: 28px;
+    line-height: 53px;
+}
+
+.check-out-history-tabs-data {
+    padding-bottom: 25px;
+}
+
+.book-detail .book-detail-wrapper {
+    height: 340px;
+
+}
+
+.book-detail .book-detail-rating {
+    cursor: pointer;
+}
+
+.book-detail .modal-dialog {
+    max-width: 969px;
+    /* width: 969px;
+    height: 633px; */
+}
+
+.book-detail .modal .cta {
+    background: rgba(102, 103, 171, 0.5);
+}
+
+.book-detail .book-detail-wrapper small,
+.book-detail .book-detail-wrapper p,
+.book-detail .book-detail-wrapper .cta,
+.book-detail .modal .midnight-library-text,
+.book-detail .modal .cta,
+.book-detail .modal .review-text {
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.book-detail .modal .modal-content {
+    background-color: #F8F1FF;
+}
+
+.book-detail .modal .review-text {
+    padding: 0 100px;
+}
+
+.book-detail .book-detail-wrapper .book-detail-img {
+    width: 275px;
+}
+
+.book-detail .book-detail-wrapper .book-detail-rating {
+    margin-top: 45px;
+}
+
+.book-detail {
+    padding: 25px 0 180px;
+}
+
+@media screen and (max-width:1199px) {
+    .books .col-lg-5 {
+        margin-bottom: 28px;
+    }
+
+    .check-out-history-tabs-data .tab-content .tab-pane ul li img,
+    .book-detail .book-detail-wrapper .book-detail-rating ul li img,
+    .book-detail .modal .review-name ul li img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .book-detail .book-detail-wrapper .book-detail-rating {
+        margin-top: 35px;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    header nav ul li a.nav-link {
+        font-size: 15px;
+        line-height: 28px;
+
+    }
+
+
+    header nav ul.top-nav li a.nav-link {
+        font-size: 16px;
+        line-height: 31px;
+    }
+
+    body {
+        font-size: 18px;
+        line-height: 34px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .books .book-finder {
+        height: 239px;
+        object-fit: cover;
+    }
+
+    .books {
+        padding: 30px 0 30px;
+    }
+
+    .books .col-lg-5 {
+        margin-bottom: 18px;
+    }
+
+    .checkout-history .check-out-history-text {
+        font-size: 23px;
+        line-height: 48px;
+    }
+
+    .check-out-history-tabs-data .tab-content .tab-pane ul li img,
+    .book-detail .book-detail-wrapper .book-detail-rating ul li img,
+    .book-detail .modal .review-name ul li img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .book-detail .modal .review-name>img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .book-detail .book-detail-wrapper {
+        height: 320px;
+    }
+
+    .book-detail .book-detail-wrapper small,
+    .book-detail .book-detail-wrapper p,
+    .book-detail .book-detail-wrapper .cta,
+    .book-detail .modal .review-text {
+        font-size: 14px;
+        line-height: 27px;
+    }
+
+    .book-detail .book-detail-wrapper .book-detail-rating {
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    header nav .navbar-brand img {
+        width: 126px;
+        object-fit: contain;
+        height: auto;
+    }
+
+    .check-out-history-tabs-data .tab-content .tab-pane ul li img,
+    .book-detail .book-detail-wrapper .book-detail-rating ul li img,
+    .book-detail .modal .review-name ul li img {
+        width: 21px;
+        height: 21px;
+    }
+
+
+    header nav ul.top-nav li a.nav-link.army::after {
+        display: none;
+    }
+
+    .books {
+        padding: 25px 0 25px;
+    }
+
+    .book-detail .book-detail-wrapper .book-detail-img {
+        width: 200px;
+    }
+
+    .book-detail .book-detail-wrapper {
+        height: 100%;
+    }
+
+    .book-detail .book-detail-wrapper .book-detail-rating {
+        margin-top: 10px;
+    }
+
+    .book-detail {
+        padding: 15px 0 100px;
+    }
+
+    .book-detail .modal .review-text {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    nav {
+        padding: 0px 20px !important;
+    }
+
+    .checkout-history .nav-pills .nav-link {
+        font-size: 13px;
+        line-height: 29px;
+    }
+
+    .checkout-history .check-out-history-text {
+        font-size: 16px;
+        line-height: 41px;
+    }
+
+    .check-out-history-tabs-data .tab-content .tab-pane ul li img,
+    .book-detail .book-detail-wrapper .book-detail-rating ul li img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .book-detail .modal .review-name ul li img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .book-detail .book-detail-wrapper .book-detail-rating {
+        margin-top: 10px;
+    }
+
+    .book-detail .book-detail-wrapper .book-detail-img {
+        width: 150px;
+    }
+
+    .book-detail {
+        padding: 15px 0 50px;
+    }
+
+    .book-detail .modal .review-text {
+        padding: 0;
+    }
+}
